@@ -1,0 +1,13 @@
+<html>
+    <head>
+      <title>moviefans.com</title>
+      <title>Welcome to moviefans.com</title>
+    </head>
+    <body>
+        <div>Microblog: <a href="/index">Home</a></div>
+        <h2>Enter the plot for the movie you always wanted to know</h2>
+	<input type="text" placeholder="Search..">
+	<hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
